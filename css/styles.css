@@ -1,0 +1,139 @@
+:root{
+    --main-color:#2E2F42;
+    --primary-brand:#4D5AE5;
+    --pressed-state:#404BBF;
+    --main-bgc:#fff;
+    --logo-font: Raleway, sans-serif;
+    --main-font: Roboto, sans-serif;
+}
+
+body{
+    background-color: var(--main-bgc);
+    font-family: var(--main-font);
+    font-style: normal;
+    font-size: 16px;
+}
+
+.list{
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+}
+
+/***** 
+STUDiO 
+******/
+
+/* logo */
+.logo{
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    font-family: var(--logo-font);
+    color:var(--primary-brand);
+}
+.header-logo {
+    color: var(--main-color);
+}
+.footer-logo{
+    color: #F4F4FD;
+}
+
+/* header */
+.page-header{}
+
+.page-nav{
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--main-color);
+}
+
+.menu{}
+.menu-item{}
+
+.menu-link{
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--main-color);
+}
+.menu-link:hover,
+.menu-link:focus{
+    color:var(--pressed-state);
+}
+
+.contact{  
+    color: #434455;
+    font-style: normal;       
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.contact:hover,
+.contact:focus{
+    color: var(--pressed-state);
+}
+/* hero */
+h1{
+    color: var(--main-bgc);
+    font-weight: 700;
+    font-size: 56px;
+    line-height:1.07;
+    text-align: center;
+    letter-spacing: 0.02em;    
+
+}
+.hero{
+    background: var(--main-color);
+}
+.btn{
+    font-weight: 500;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: var(--main-bgc);
+    background:var(--primary-brand);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn:hover,
+.btn:focus{
+    background: var(--pressed-state);
+}
+/* benefits */
+/* what are we doing */
+/* our team */
+.title2{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--main-color);
+}
+.title3{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--main-color);
+}
+.text{    
+    font-weight: 400;        
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    /* color: #434455; */
+}
+/* footer */
+footer{
+    background: var(--main-color);
+}
+
+/*****
+PORTFOLIO
+*****/
