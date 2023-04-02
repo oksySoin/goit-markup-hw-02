@@ -14,7 +14,7 @@
 }
 
 body{
-    color:var(--color-slate);
+    color: #434455;
     background-color: var(--main-bgc);
     font-family: var(--main-font);
     font-style: normal;
